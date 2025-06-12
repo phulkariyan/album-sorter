@@ -9,7 +9,6 @@ from mutagen.mp4 import MP4
 from mutagen.m4a import M4A
 from mutagen.apev2 import APEv2
 from mutagen.id3 import ID3NoHeaderError
-
 def get_audio_duration(filepath):
     try:
         if filepath.lower().endswith('.mp3'):
